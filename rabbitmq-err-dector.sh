@@ -1,6 +1,6 @@
 #/bin/bash
 
-logger=`tail $rabbitmq-path`
+logger=`tail $rabbitmqlog-path`
 
 logger_length=`echo $logger | awk {'print NF'}`
 
